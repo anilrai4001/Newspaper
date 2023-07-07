@@ -1,0 +1,71 @@
+*{
+    margin: 5px;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 70vw;
+    padding: 10px;
+    border: 10px solid #ccc;
+}
+
+h1{
+    text-align:  center;
+}
+
+figure{
+    margin: 20px;
+}
+
+img{
+    padding: 5px;
+}
+
+#image1{
+    float: left;
+}
+
+h3{
+    text-align:  center;
+}
+
+#para2{
+    clear: left;
+}
+
+#image2{
+    float: right;
+}
+
+#para4{
+    clear: right;
+}
+
+
+
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    padding: 0 0.25em;
+    background: white;
+}
